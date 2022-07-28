@@ -44,8 +44,8 @@
 #define BRPC_CALLBACK_H
 
 #include <google/protobuf/stubs/common.h>  // Closure
-#if GOOGLE_PROTOBUF_VERSION >= 3007000
-// After protobuf 3.7.0, callback.h is removed from common.h, we need to explicitly
+#if GOOGLE_PROTOBUF_VERSION >= 3006000
+// After protobuf 3.6.0, callback.h is removed from common.h, we need to explicitly
 // include this file.
 #include <google/protobuf/stubs/callback.h>
 #endif
